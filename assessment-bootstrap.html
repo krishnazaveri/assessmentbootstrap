@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .fa-twitter {
+            font-size: 30px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: rgb(4, 155, 205);
+            color: white;
+            margin: 10px 0px;
+        }
+
+        .btn {
+             width: 100%;
+             border-radius: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px 0px;
+        }
+
+        /* input {
+            margin: 10px 0px;
+            border-radius: 30px!important;
+        }
+
+        input:focus {
+            outline: none;
+        } */
+
+       /*  .fa-user {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        } */
+        
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid bg-light p-3">
+            <div class="col-xl-4 rounded border mx-auto px-5 py-3 bg-light shadow text-center">
+                <i class="fa-brands fa-twitter shadow"></i><br>
+                <span class="text-secondary font-weight-bold">Twitter</span>
+                <!-- <div class="row" style="position: relative;">
+                    <input type="text" class="form-control ">
+                    <i class="fa-solid fa-user"></i>
+                </div> -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text rounded-left" id="basic-addon1">
+                            <i class="fa-solid fa-user py-1"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text rounded-left" id="basic-addon1">
+                            
+                            <i class="fa-solid fa-key py-1"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="password" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <button type="button" class="btn btn-primary">Login</button>
+
+                <div class="row">
+                    <a href=""><div class="text-primary">Forgot Password</div></a>
+                    <div class="text-dark">Or</div>
+                    <a href=""><div class="text-primary">Sign up</div></a>
+                </div>
+
+            </div>
+    </div>
+    
+</body>
+</html>
